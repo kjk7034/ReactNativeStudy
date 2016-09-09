@@ -48,6 +48,12 @@ ES6에 대한 기본 학습 (import,class(constructor),export,rest variable)
 * [React Native를 사용한  초간단 커뮤니티 앱 제작](http://www.slideshare.net/taggon/react-native)
 * [리액트 네이티브로 시작하는 앱 개발 #1](https://realm.io/kr/news/react-native/)
 
+### Init setting
+
+```
+react-native init reactNativeStudy
+```
+
 ## 스터디 1일차 (2016-09-24)
 
 
