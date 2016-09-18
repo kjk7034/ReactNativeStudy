@@ -59,21 +59,23 @@ react-native init reactNativeStudy
 #### 2일차
 
 + 예습 : react-native의 COMPONENTS 예제 모두 따라해보기 (IOS, Android는 제외)
++ COMPONENTS 복습 발표 / (???)
 + react lifecycle 발표 / (???)
 + 3일차 예습 공지 및 발표자 선정
 
 #### 3일차
 
 + 예습 : react-native의 APIS 예제 모두 따라해보기
++ APIS 복습 발표 / (???)
 + JavaScript Environment에 있는 ES6 문법 설명 / (???)
 + CSS Flexbox / (???)
 + StyleSheet 작업하면서 수치 값에 대한 경험 공유. / (김준극)
 
+시간이 만약 모자르면 CSS Flexbox와 StyleSheet 작업하면서 수치 값에 대한 경험은 다음 시간에...
+
 #### 4일차
 
-+ 각자 샘플 앱을 만들어서 공유 (최소 Navigation을 적용하여 기본 페이지 작성)
-+ 작업하면서 어려운 내용들 문의 및 공유 
-+ 다른 사람의 궁금한 작업방법 질문
++ 예습 : 각자 샘플 앱을 만들어서 공유 (StyleSheet를 제외한 Navigation을 적용하여 기본 페이지 작성)
 
 #### 5일차
 
