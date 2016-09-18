@@ -4,25 +4,21 @@ react native 스터디를 참여하면서 개인적으로 정리하는 곳.
 
 ## 스터디 시작 전 
 
-### 스터디 진행 방식	
-
-[Reac Native](https://facebook.github.io/react-native/) 튜토리얼 샘플로 단계적으로 스터디를 진행하고 각자 구현한 걸로 코드 리뷰를 진행하는 방식
-
 ### 스터디 목표
 
-오픈 API를 이용하여 간단한 날씨 앱을 만들어 보기
+각자 원하는 자신만의 앱을 하나씩 만들어서 배포해보는 것을 시작으로 Redux, Codepush등을 이용하는 것을 최종 목표로 생각. (스터디를 단계적으로 진행)
+
+API는 따로 정하기보다는 각 회사에서 제작한 모바일 앱 or 웹을 React Native로 만들어 보는 것이 스스로에게 가장 도움이 될 것 같음. 꼭 회사용이 아니더라도 각자 만들고 싶은 앱으로 진행.
+
+생각나는 앱이 없으면 [Weather Planet](https://developers.skplanetx.com/apidoc/kor/weather/) API를 이용한 날씨 앱
 
 ### 스터디 구성원 
 
-7명 (추후 공개)
+7명 (변동가능)
 
-### 스터디 예상 일정
+### 스터디 장소 및 일정
 
-약 6주 예상 (장소 : 강남 토즈 1시)
-
-9월 8일 나는 없었지만 첫 오프라인 미팅을 시작으로 스터디 진행 방식 일정 등등 결정.
-
-9월 24일 스터디 첫 시작~!!!
+9월 24일 강남 토즈 1시에서 첫 스터디에서 최종 결정~!!!
 
 ### 프로젝트 환경설정
 
@@ -32,21 +28,17 @@ react native 스터디를 참여하면서 개인적으로 정리하는 곳.
 
 전에 내가 세팅하던 과정. (참고용) [Wise의 React Native – 기본 세팅하기](http://wagunblog.com/wp/?p=1855)
 
-### 필요한 선행학습
-
-react lifecycle(생명주기라고 번역됨)의 이해.
-
-ES6에 대한 기본 학습 (import,class(constructor),export,rest variable)
-
 ### 사용할 API 찾기
 
-날씨 API를 보면서 공공데이터 포털에 있는 것도 봤지만, 개인적으로는 SK planet의 [Weather Planet](https://developers.skplanetx.com/apidoc/kor/weather/)을 생각하고 있음
+날씨 API를 보면서 공공데이터 포털에 있는 것도 봤지만, 개인적으로는 SK planet의 을 생각하고 있음
 
 ### 기타 참고자료
 
 * [React & Express 를 이용한 웹 어플리케이션 개발하기](https://www.inflearn.com/course/react-%EA%B0%95%EC%A2%8C-velopert/)
 * [React Native를 사용한  초간단 커뮤니티 앱 제작](http://www.slideshare.net/taggon/react-native)
 * [리액트 네이티브로 시작하는 앱 개발 #1](https://realm.io/kr/news/react-native/)
+* [앱 예제 - SendBird 채팅앱] (http://blog.sendbird.com/ko/tutorialreact-native%EC%97%90%EC%84%9C-%EC%B1%84%ED%8C%85-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/)
+* [앱 예제 - open API 활용 예제] (https://github.com/kjk7034/RealTimeEmergencyDepartmentInfo)
 
 ### Init setting
 
@@ -54,6 +46,44 @@ ES6에 대한 기본 학습 (import,class(constructor),export,rest variable)
 react-native init reactNativeStudy
 ```
 
-## 스터디 1일차 (2016-09-24)
+### 스터디 1단계 Agenda
 
+#### 1일차 (2016-09-24)
 
++ 예습 : 환경설정 (못해온 사람은 옆에서 당일 도와주기) 
++ xcode(mac), android studio 설치해오기
++ 진행했던 프로젝트 결과물 공유 + codepush로 앱 배포 / (김준극)
++ 앞으로의 스터디 장소 및 시간 결정
++ 2일차 예습 공지 및 발표자 선정
+
+#### 2일차
+
++ 예습 : react-native의 COMPONENTS 예제 모두 따라해보기 (IOS, Android는 제외)
++ react lifecycle 발표 / (???)
++ 3일차 예습 공지 및 발표자 선정
+
+#### 3일차
+
++ 예습 : react-native의 APIS 예제 모두 따라해보기
++ JavaScript Environment에 있는 ES6 문법 설명 / (???)
++ CSS Flexbox / (???)
++ StyleSheet 작업하면서 수치 값에 대한 경험 공유. / (김준극)
+
+#### 4일차
+
++ 각자 샘플 앱을 만들어서 공유 (최소 Navigation을 적용하여 기본 페이지 작성)
++ 작업하면서 어려운 내용들 문의 및 공유 
++ 다른 사람의 궁금한 작업방법 질문
+
+#### 5일차
+
++ StyleSheet를 포함하여 Fetch까지 적용된 최종 샘플 앱 완료.
+
+### 스터디 2단계 목표 (자세한 Agenda 미정)
+
++ 앱 등록 및 배포
++ CodePush 적용
+
+### 스터디 3단계 목표 (자세한 Agenda 미정)
+
++ Redux 활용
