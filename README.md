@@ -6,7 +6,7 @@ react native 스터디를 참여하면서 개인적으로 정리하는 곳.
 
 ### 스터디 목표
 
-각자 원하는 자신만의 앱을 하나씩 만들어 보는 것을 기본 목표로 Codepush등을 통해서 배포를 하고, Redux를 통해서 state를 관리하는 것을 최종 목표로 생각. (스터디를 단계적으로 진행)
+각자 원하는 자신만의 앱을 하나씩 만들어 보는 것을 기본 목표로 앱 배포 및 Codepush등을 통해서 업데이트 하고, Redux를 통해서 state를 관리하는 것을 최종 목표로 생각. (스터디를 단계적으로 진행)
 
 API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 웹을 React Native로 만들어 보는 것을 추천하고 싶음. 꼭 회사용이 아니더라도 각자 만들고 싶은 앱을 자유롭게 진행.
 
@@ -27,7 +27,7 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 + 예습 : 환경설정([React Native Getting Started](https://facebook.github.io/react-native/docs/getting-started.html) 따라해오기) (못해온 사람은 옆에서 당일 도와주기) 
 + 예습 : [React JS 강좌](https://www.inflearn.com/course/react-%ea%b0%95%ec%a2%8c-velopert/?action=curriculum) 섹션 1 ~ 3까지 보고오기. (React Native를 하기위해서 기본적인 React JS에 대해서 어느정도 알아야 진행이 가능함)
 + xcode(mac), android studio 설치해오기
-+ 진행했던 프로젝트 결과물 공유 + codepush로 앱 배포 / (김준극)
++ 진행했던 프로젝트 결과물 공유 + codepush Update 시연 / (김준극)
 + 앞으로의 스터디 장소 및 시간 결정
 + 2일차 예습 공지 및 발표자 선정
 
@@ -50,11 +50,13 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 
 #### 4일차
 
-+ 예습 : 각자 샘플 앱을 만들어서 공유 (StyleSheet를 제외한 Navigation을 적용하여 기본 페이지 작성)
++ 예습 : 각자 샘플 앱 UI 만들기 (Fetch 제외, Navigator의 활용)
++ 각자 만든 샘플 앱 코드리뷰
 
 #### 5일차
 
-+ StyleSheet를 포함하여 Fetch까지 적용된 최종 샘플 앱 완료.
++ 예습 : Fetch까지 적용된 최종 샘플 앱 완료.
++ 각자 만든 샘플 앱 코드리뷰
 
 ### 스터디 2단계 목표 (자세한 Agenda 미정)
 
