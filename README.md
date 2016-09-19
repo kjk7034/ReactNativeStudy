@@ -84,7 +84,7 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 * [리액트 네이티브로 시작하는 앱 개발 #1](https://realm.io/kr/news/react-native/)
 * [앱 예제 - SendBird 채팅앱](http://blog.sendbird.com/ko/tutorialreact-native%EC%97%90%EC%84%9C-%EC%B1%84%ED%8C%85-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/)
 * [앱 예제 - open API 활용 예제](https://github.com/kjk7034/RealTimeEmergencyDepartmentInfo)
-* [react-native-tutorial-korean](https://www.gitbook.com/book/g6ling/react-native-tutorial-korean/details)
+* [react-native-tutorial-korean 자료](https://g6ling.gitbooks.io/react-native-tutorial-korean/content/1-1ko.html)
 
 ### Init setting
 
