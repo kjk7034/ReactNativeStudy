@@ -42,7 +42,7 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 #### 3일차
 
 + 예습 : react-native의 APIS 예제 모두 따라해보기
-+ 예습 : 샘플 앱 UI 만들어보기 (참고자료 : )
++ 예습 : 샘플 앱 만들기 - 1/3 (Navigator를 이용하여 페이지 및 기본 컨텐츠 구성)
 + APIS 복습 발표 / (???)
 + JavaScript Environment에 있는 ES6 문법 설명 / (???)
 + CSS Flexbox / (???)
@@ -50,13 +50,14 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 
 #### 4일차
 
-+ 예습 : 각자 샘플 앱 UI 만들기 (Navigator의 활용을 중점으로 Fetch, StyleSheet 적용)
++ 예습 : 샘플 앱 만들기 - 2/3 (Fetch, StyleSheet 적용)
 + 각자 만든 샘플 앱 코드리뷰
++ Third Party에 관한 설명 ([React Native Camera](https://github.com/remobile/react-native-camera), 웹폰트 적용사례)) / (김준극)
 
 #### 5일차
 
-+ 예습 : 앱 UI 최종 완성, Third Party 찾아보기 (ex : [React Native Third Party API](http://www.reactnative.com/tag/third-party-api/))
-+ Third Party 공유
++ 예습 : 샘플 앱 최종 완성, 필요할 것 같은 Third Party 찾아보기 
++ 찾은 Third Party 공유
 + 완성된 앱 공유
 + 1단계 완료 회식!!
 
