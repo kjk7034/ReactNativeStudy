@@ -29,6 +29,7 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 + xcode(mac), android studio 설치해오기
 + 진행했던 프로젝트 결과물 공유 + codepush Update 시연 / (김준극)
 + 앞으로의 스터디 장소 및 시간 결정
++ 회비 및 총무 결정
 + 2일차 예습 공지 및 발표자 선정
 
 #### 2일차
@@ -41,12 +42,11 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 #### 3일차
 
 + 예습 : react-native의 APIS 예제 모두 따라해보기
++ 예습 : 샘플 앱 UI 만들어보기 (참고자료 : )
 + APIS 복습 발표 / (???)
 + JavaScript Environment에 있는 ES6 문법 설명 / (???)
 + CSS Flexbox / (???)
 + StyleSheet 작업하면서 수치 값에 대한 경험 공유. / (김준극)
-
-시간이 만약 모자르면 CSS Flexbox와 StyleSheet 작업하면서 수치 값에 대한 경험은 다음 시간에...
 
 #### 4일차
 
@@ -58,6 +58,7 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 + 예습 : 앱 UI 최종 완성, Third Party 찾아보기 (ex : [React Native Third Party API](http://www.reactnative.com/tag/third-party-api/))
 + Third Party 공유
 + 완성된 앱 공유
++ 1단계 완료 회식!!
 
 ### 스터디 2단계 목표 (자세한 Agenda 미정)
 
