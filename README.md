@@ -50,13 +50,14 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 
 #### 4일차
 
-+ 예습 : 각자 샘플 앱 UI 만들기 (Fetch 제외, Navigator의 활용)
++ 예습 : 각자 샘플 앱 UI 만들기 (Navigator의 활용을 중점으로 Fetch, StyleSheet 적용)
 + 각자 만든 샘플 앱 코드리뷰
 
 #### 5일차
 
-+ 예습 : Fetch까지 적용된 최종 샘플 앱 완료.
-+ 각자 만든 샘플 앱 코드리뷰
++ 예습 : 앱 UI 최종 완성, Third Party 찾아보기 (ex : [React Native Third Party API](http://www.reactnative.com/tag/third-party-api/))
++ Third Party 공유
++ 완성된 앱 공유
 
 ### 스터디 2단계 목표 (자세한 Agenda 미정)
 
