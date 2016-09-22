@@ -35,6 +35,7 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 #### 2일차
 
 + 예습 : react-native의 COMPONENTS 예제 모두 따라해보기 (IOS, Android는 제외)
++ 예습 : [[React.JS] 강좌 7편 Component LifeCycle API](https://velopert.com/1130) 보고오기.
 + COMPONENTS 복습 발표 / (???)
 + react lifecycle 발표 / (???)
 + 3일차 예습 공지 및 발표자 선정
