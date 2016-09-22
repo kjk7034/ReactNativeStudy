@@ -42,7 +42,7 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 #### 3일차
 
 + 예습 : react-native의 APIS 예제 모두 따라해보기
-+ 예습 : 샘플 앱 만들기 - 1/3 (Navigator를 이용하여 페이지 및 기본 컨텐츠 구성)
++ 예습 : 샘플 앱 만들기 - 1/3 (Navigator를 이용하여 페이지 구성)
 + APIS 복습 발표 / (???)
 + JavaScript Environment에 있는 ES6 문법 설명 / (???)
 + CSS Flexbox / (???)
