@@ -28,6 +28,7 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 + 예습 : [React JS 강좌](https://www.inflearn.com/course/react-%ea%b0%95%ec%a2%8c-velopert/?action=curriculum) 섹션 1 ~ 3까지 보고오기. (React Native를 하기위해서 기본적인 React JS에 대해서 어느정도 알아야 진행이 가능함)
 + xcode(mac), android studio 설치해오기
 + 진행했던 프로젝트 결과물 공유 + codepush Update 시연 / (김준극)
++ [React Native UIExplorer 설치 및 확인(MAC)](http://wagunblog.com/wp/?p=2144) / (김준극)
 + 앞으로의 스터디 장소 및 시간 결정
 + 회비 및 총무 결정
 + 2일차 예습 공지 및 발표자 선정
