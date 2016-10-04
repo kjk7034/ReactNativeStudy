@@ -18,18 +18,18 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 
 생각나는 앱이 없으면 Open API를 이용한 날씨 앱. ([Weather Planet](https://developers.skplanetx.com/apidoc/kor/weather/))
 
-### 스터디 구성원 
+### 스터디 구성원 (4명)
 
 + 김준극
-+ 김xx
-+ 남xx
-+ 서xx
++ 김정윤
++ 남동훈
++ 서재현
 
 ### 스터디 장소 및 일정
 
 9월 24일 강남 토즈 1시에서 첫 스터디. 스터디 일정 및 장소는 매주 스터디 끝날때 유동적으로 결정~!! (상황에 따라 On, Off 병행)
 
-### 스터디 1단계 Agenda
+### 스터디 1단계 Agenda - 최초 계획안
 
 #### 1일차
 
@@ -81,7 +81,9 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 
 + Redux 활용
 
-## 스터디 1일차
+*****
+
+## 스터디 1일차 (9월 24일)
 
 ### 프로젝트 환경설정
 
@@ -95,8 +97,32 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 
 [React Native UIExplorer 설치 및 확인(MAC)](http://wagunblog.com/wp/?p=2144) 발표
 
+## 스터디 2일차 (10월 1일)
 
-## 프로젝트 진행현황
+회사를 다니며 스터디 예습하고 준비하기는 역시 많이 힘든듯. 모두 다 준비해오지는 못했고, 그래도 지난주 진행했던 환경설정까지는 모두 마무리해왔다.
+Lifecycle을 발표하는데 생각보다 많은 시간이 들었으며, Component를 하기 시간도 애매하고 예습도 많이 해오지는 않은 상태라 Component는 다음주에 이어서 진행하기로 하고, 최근 동훈이가 관심을 가지고 있는 기술에 대해서 진행했다.  
+
+### Lifecycle
+
+[React Component Specs and Lifecycle 발표](https://github.com/kjk7034/ReactLifecycle)
+
+### 동훈이가 최근 관심을 가지고 있는 부분
+
+#### PWA
+
+*[PWA - Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)*.
+
+PWA 예제 사이트를 보면서 IndexDB, manifest cache, service worker등에 대한 얘기가 나왔으며, 그 중 가장 핫하게 받아들이고 있는 부분은 service worker 였다.
+  
+#### AMP
+ 
+*[AMP - Accelerated Mobile Pages](https://www.ampproject.org/)*를 적용한 경험담.
+
+AMP가 대충 이런거다는 알고 있었지만 조금 더 들어가서 validation의 통과 여부에 따른 google 검색 노출여부.
+
+지도 작업 관련해서는 ifame을 통해서 구현 가능.  
+
+## 샘플 프로젝트 진행현황 (진행 전)
 
 ```
 react-native init reactNativeStudy
