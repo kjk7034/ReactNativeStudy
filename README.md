@@ -20,10 +20,10 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 
 ### 스터디 구성원 (4명)
 
-+ 김준극
-+ 김정윤
-+ 남동훈
-+ 서재현
++ [김준극](https://github.com/kjk7034)
++ [김정윤](https://github.com/bowaxwing)
++ [남동훈](https://github.com/seye2)
++ [서재현](https://github.com/jejette)
 
 ### 스터디 장소 및 일정
 
