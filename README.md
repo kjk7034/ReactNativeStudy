@@ -6,7 +6,13 @@ react native 스터디를 참여하면서 개인적으로 정리하는 곳.
 
 ### 스터디 목표
 
-각자 원하는 자신만의 앱을 하나씩 만들어 보는 것을 기본 목표로 앱 배포 및 Codepush등을 통해서 업데이트 하고, Redux를 통해서 state를 관리하는 것을 최종 목표로 생각. (스터디를 단계적으로 진행)
+여러 스터디를 진행 및 참가하면서 기간이 길어지고 스터디의 방향성이 모호해지는 경우가 많아서 정확한 목표를 가지고 단계적으로 진행하기로 계획함.
+
+1단계는 각자 원하는 자신만의 앱을 하나씩 만들어 보는 것. 여러 컴포넌트들 및 API를 통해서 로컬 환경에서의 앱 개발.
+
+2단계는 앱 배포 및 Codepush등을 통해서 업데이트
+
+3단계는 Redux를 통해서 state를 관리하는 것을 최종 목표로 생각하고 있으며 일단 1단계부터 Agenda를 만들어서 진행.
 
 API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 웹을 React Native로 만들어 보는 것을 추천하고 싶음. 꼭 회사용이 아니더라도 각자 만들고 싶은 앱을 자유롭게 진행.
 
@@ -14,15 +20,18 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 
 ### 스터디 구성원 
 
-7명 (변동가능)
++ 김준극
++ 김xx
++ 남xx
++ 서xx
 
 ### 스터디 장소 및 일정
 
-9월 24일 강남 토즈 1시에서 첫 스터디에서 최종 결정~!!!
+9월 24일 강남 토즈 1시에서 첫 스터디. 스터디 일정 및 장소는 매주 스터디 끝날때 유동적으로 결정~!! (상황에 따라 On, Off 병행)
 
 ### 스터디 1단계 Agenda
 
-#### 1일차 (2016-09-24)
+#### 1일차
 
 + 예습 : 환경설정([React Native Getting Started](https://facebook.github.io/react-native/docs/getting-started.html) 따라해오기) (못해온 사람은 옆에서 당일 도와주기) 
 + 예습 : [React JS 강좌](https://www.inflearn.com/course/react-%ea%b0%95%ec%a2%8c-velopert/?action=curriculum) 섹션 1 ~ 3까지 보고오기. (React Native를 하기위해서 기본적인 React JS에 대해서 어느정도 알아야 진행이 가능함)
@@ -72,7 +81,7 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 
 + Redux 활용
 
-## 스터디 시작 전
+## 스터디 1일차
 
 ### 프로젝트 환경설정
 
@@ -82,7 +91,20 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 
 전에 내가 세팅하던 과정. (참고용) [Wise의 React Native – 기본 세팅하기](http://wagunblog.com/wp/?p=1855)
 
-### 기타 참고자료
+### React Native UIExplorer 설치 및 확인(MAC)
+
+[React Native UIExplorer 설치 및 확인(MAC)](http://wagunblog.com/wp/?p=2144) 발표
+
+
+## 프로젝트 진행현황
+
+```
+react-native init reactNativeStudy
+```
+
+기본 설치만 해놓은 상태.
+
+## 기타 참고자료
 
 * [React & Express 를 이용한 웹 어플리케이션 개발하기](https://www.inflearn.com/course/react-%EA%B0%95%EC%A2%8C-velopert/)
 * [React Native를 사용한  초간단 커뮤니티 앱 제작](http://www.slideshare.net/taggon/react-native)
@@ -90,9 +112,4 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 * [앱 예제 - SendBird 채팅앱](http://blog.sendbird.com/ko/tutorialreact-native%EC%97%90%EC%84%9C-%EC%B1%84%ED%8C%85-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/)
 * [앱 예제 - open API 활용 예제](https://github.com/kjk7034/RealTimeEmergencyDepartmentInfo)
 * [react-native-tutorial-korean 자료](https://g6ling.gitbooks.io/react-native-tutorial-korean/content/1-1ko.html)
-
-### Init setting
-
-```
-react-native init reactNativeStudy
-```
+* [React 공부 정리](http://www.sangkon.com/2016/08/02/react-study-01/)
