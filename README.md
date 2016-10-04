@@ -10,11 +10,11 @@ react native 스터디를 참여하면서 개인적으로 정리하는 곳.
 
 1단계는 각자 원하는 자신만의 앱을 하나씩 만들어 보는 것. 여러 컴포넌트들 및 API를 통해서 로컬 환경에서의 앱 개발.
 
-2단계는 앱 배포 및 Codepush등을 통해서 업데이트
+2단계는 앱 배포 및 Codepush 등 을 통해서 업데이트
 
 3단계는 Redux를 통해서 state를 관리하는 것을 최종 목표로 생각하고 있으며 일단 1단계부터 Agenda를 만들어서 진행.
 
-API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 웹을 React Native로 만들어 보는 것을 추천하고 싶음. 꼭 회사용이 아니더라도 각자 만들고 싶은 앱을 자유롭게 진행.
+API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 웹을 React Native로 만들어 보는 것을 추천하고 싶음. 꼭 회사 용이 아니더라도 각자 만들고 싶은 앱을 자유롭게 진행.
 
 생각나는 앱이 없으면 Open API를 이용한 날씨 앱. ([Weather Planet](https://developers.skplanetx.com/apidoc/kor/weather/))
 
@@ -27,7 +27,7 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 
 ### 스터디 장소 및 일정
 
-9월 24일 강남 토즈 1시에서 첫 스터디. 스터디 일정 및 장소는 매주 스터디 끝날때 유동적으로 결정~!! (상황에 따라 On, Off 병행)
+9월 24일 강남 토즈 1시에서 첫 스터디. 스터디 일정 및 장소는 매주 스터디 끝날 때 유동적으로 결정~!! (상황에 따라 On, Off 병행)
 
 ### 스터디 1단계 Agenda - 최초 계획안
 
@@ -102,7 +102,7 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 ## 스터디 2일차 (10월 1일)
 
 회사를 다니며 스터디 예습하고 준비하기는 역시 많이 힘든 듯. 모두 다 준비해오지는 못했고, 그래도 지난주 진행했던 환경설정까지는 모두 마무리해왔다.
-Lifecycle을 발표하는데 생각보다 많은 시간이 들었으며, Component를 하기 시간도 애매하고 예습도 많이 해오지는 않은 상태라 Component는 다음주에 이어서 진행하기로 하고, 최근 동훈이가 관심을 가지고 있는 기술에 대해서 진행했다.  
+Lifecycle을 발표하는데 생각보다 많은 시간이 들었으며, Component를 하기 시간도 애매하고 예습도 많이 해오지는 않은 상태라 Component는 다음 주에 이어서 진행하기로 하고, 최근 동훈이가 관심을 가지고 있는 기술에 대해서 진행했다.  
 
 ### Lifecycle
 
@@ -114,14 +114,13 @@ Lifecycle을 발표하는데 생각보다 많은 시간이 들었으며, Compone
 
 *[PWA - Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)*.
 
-PWA 예제 사이트를 보면서 IndexDB, manifest cache, service worker등에 대한 얘기가 나왔으며, 그 중 가장 핫하게 받아들이고 있는 부분은 service worker 였다.
+PWA 예제 사이트를 보면서 IndexDB, manifest cache, service worker 등에 대한 얘기가 나왔으며, 그중 가장 핫하게 받아들이고 있는 부분은 service worker였다.
   
 #### AMP
  
 *[AMP - Accelerated Mobile Pages](https://www.ampproject.org/)*를 적용한 경험담.
 
-AMP가 대충 이런거다는 알고 있었지만 조금 더 들어가서 validation의 통과 여부에 따른 google 검색 노출여부.
-
+AMP가 대충 이런 거다는 알고 있었지만 조금 더 들어가서 validation의 통과 여부에 따른 google 검색 노출 여부.
 지도 작업 관련해서는 ifame을 통해서 구현 가능.  
 
 *****
