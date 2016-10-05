@@ -99,6 +99,10 @@ API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 
 
 [React Native UIExplorer 설치 및 확인(MAC)](http://wagunblog.com/wp/?p=2144) 발표
 
+### 기타 사항
+
+스터디 장소 및 일정은 상황에 따라 주마다 유동적으로, 스터디 발표는 랜덤 발표!! 당일날 뽑아서 발표.
+
 ## 스터디 2일차 (10월 1일)
 
 회사를 다니며 스터디 예습하고 준비하기는 역시 많이 힘든 듯. 모두 다 준비해오지는 못했고, 그래도 지난주 진행했던 환경설정까지는 모두 마무리해왔다.
@@ -106,7 +110,9 @@ Lifecycle을 발표하는데 생각보다 많은 시간이 들었으며, Compone
 
 ### Lifecycle
 
-[React Component Specs and Lifecycle 발표](https://github.com/kjk7034/ReactLifecycle)
+* [React Component Specs and Lifecycle 발표](https://github.com/kjk7034/ReactLifecycle)
+* [React Native Express - 참고 사이트](http://www.reactnativeexpress.com/)
+* [참고이미지 - imgh.us/react-lifecycle.svg](http://imgh.us/react-lifecycle.svg)
 
 ### 동훈이가 최근 관심을 가지고 있는 부분
 
