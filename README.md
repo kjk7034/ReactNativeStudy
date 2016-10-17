@@ -129,6 +129,19 @@ PWA 예제 사이트를 보면서 IndexDB, manifest cache, service worker 등에
 AMP가 대충 이런 거다는 알고 있었지만 조금 더 들어가서 validation의 통과 여부에 따른 google 검색 노출 여부.
 지도 작업 관련해서는 ifame을 통해서 구현 가능.  
 
+## 스터디 3일차 (10월 15일)
+
+인원들의 사정으로 Online 스터디로 대체함.
+
+### 컴포넌트 예제 따라해보기.
+
+[React Native Component 예제 !!](https://github.com/kjk7034/ReactNativeComponentEx) 자료 공유.
+
+### 샘플 예제 만들기
+
+아직 뭔가 만들고 싶다는 구상이 없어서 고민중.
+실제 사용할 Component들을 서드파티 포함해서 몇개 추가해볼까 생각중이기도함.
+
 *****
 
 ## 샘플 프로젝트 진행현황 (진행 전)
