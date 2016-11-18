@@ -2,11 +2,13 @@
 
 react native 스터디를 참여하면서 개인적으로 정리하는 곳.
 
-## 스터디 요약
+내가 처음 공부할 때 처럼 ReactNative는 해보고 싶은데 뭐부터 해야할지 잘 모르는 사람에게 도움이 되었으면 하는 마음에 정리를 합니다.
 
-### 스터디 목표
+## 스터디 최초 아젠다
 
-여러 스터디를 진행 및 참가하면서 기간이 길어지고 스터디의 방향성이 모호해지는 경우가 많아서 정확한 목표를 가지고 단계적으로 진행하기로 계획함.
+아젠다를 나름 만들기는 했지만 실제로 이 아젠다로 진행이 되지는 않았다.
+
+여러 스터디를 진행 및 참가하면서 기간이 길어지고 스터디의 방향성이 모호해지는 경우 흐지부지 되는 경우가 많아서 목표를 설정하고 필요한 부분에 대해서 단계적으로 진행하기로 계획을 했다. 
 
 1단계는 각자 원하는 자신만의 앱을 하나씩 만들어 보는 것. 여러 컴포넌트들 및 API를 통해서 로컬 환경에서의 앱 개발.
 
@@ -14,72 +16,7 @@ react native 스터디를 참여하면서 개인적으로 정리하는 곳.
 
 3단계는 Redux를 통해서 state를 관리하는 것을 최종 목표로 생각하고 있으며 일단 1단계부터 Agenda를 만들어서 진행.
 
-API를 하나로 정하기보다는 각 회사에서 제작한 모바일 앱 or 웹을 React Native로 만들어 보는 것을 추천하고 싶음. 꼭 회사 용이 아니더라도 각자 만들고 싶은 앱을 자유롭게 진행.
-
-생각나는 앱이 없으면 Open API를 이용한 날씨 앱. ([Weather Planet](https://developers.skplanetx.com/apidoc/kor/weather/))
-
-### 스터디 구성원 (4명)
-
-+ [김준극](https://github.com/kjk7034)
-+ [김정윤](https://github.com/bowaxwing)
-+ [남동훈](https://github.com/seye2)
-+ [서재현](https://github.com/jejette)
-
-### 스터디 장소 및 일정
-
-9월 24일 강남 토즈 1시에서 첫 스터디. 스터디 일정 및 장소는 매주 스터디 끝날 때 유동적으로 결정~!! (상황에 따라 On, Off 병행)
-
-### 스터디 1단계 Agenda - 최초 계획안
-
-#### 1일차
-
-+ 예습 : 환경설정([React Native Getting Started](https://facebook.github.io/react-native/docs/getting-started.html) 따라해오기) (못해온 사람은 옆에서 당일 도와주기) 
-+ 예습 : [React JS 강좌](https://www.inflearn.com/course/react-%ea%b0%95%ec%a2%8c-velopert/?action=curriculum) 섹션 1 ~ 3까지 보고오기. (React Native를 하기위해서 기본적인 React JS에 대해서 어느정도 알아야 진행이 가능함)
-+ xcode(mac), android studio 설치해오기
-+ 진행했던 프로젝트 결과물 공유 + codepush Update 시연 / (김준극)
-+ [React Native UIExplorer 설치 및 확인(MAC)](http://wagunblog.com/wp/?p=2144) / (김준극)
-+ 앞으로의 스터디 장소 및 시간 결정
-+ 회비 및 총무 결정
-+ 2일차 예습 공지 및 발표자 선정
-
-#### 2일차
-
-+ 예습 : react-native의 COMPONENTS 예제 모두 따라해보기 (IOS, Android는 제외)
-+ 예습 : [[React.JS] 강좌 7편 Component LifeCycle API](https://velopert.com/1130) 보고오기.
-+ COMPONENTS 복습 발표 / (???)
-+ react lifecycle 발표 / (???)
-+ 3일차 예습 공지 및 발표자 선정
-
-#### 3일차
-
-+ 예습 : react-native의 APIS 예제 모두 따라해보기
-+ 예습 : 샘플 앱 만들기 - 1/3 (Navigator를 이용하여 페이지 구성)
-+ APIS 복습 발표 / (???)
-+ JavaScript Environment에 있는 ES6 문법 설명 / (???)
-+ CSS Flexbox / (???)
-+ StyleSheet 작업하면서 수치 값에 대한 경험 공유. / (김준극)
-
-#### 4일차
-
-+ 예습 : 샘플 앱 만들기 - 2/3 (Fetch, StyleSheet 적용)
-+ 각자 만든 샘플 앱 코드리뷰
-+ Third Party에 관한 설명 ([React Native Camera](https://github.com/remobile/react-native-camera), 웹폰트 적용사례)) / (김준극)
-
-#### 5일차
-
-+ 예습 : 샘플 앱 최종 완성, 필요할 것 같은 Third Party 찾아보기 
-+ 찾은 Third Party 공유
-+ 완성된 앱 공유
-+ 1단계 완료 회식!!
-
-### 스터디 2단계 목표 (자세한 Agenda 미정)
-
-+ 앱 등록 및 배포
-+ CodePush 적용
-
-### 스터디 3단계 목표 (자세한 Agenda 미정)
-
-+ Redux 활용
+1단계 상세 아젠다는 [스터디 정보](https://github.com/kjk7034/ReactNativeStudy/blob/master/docs/StudyAgenda.md)에서 확인할 수 있다 
 
 *****
 
@@ -137,22 +74,44 @@ AMP가 대충 이런 거다는 알고 있었지만 조금 더 들어가서 valid
 
 [React Native Component 예제 !!](https://github.com/kjk7034/ReactNativeComponentEx) 자료 공유.
 
-### 샘플 예제 만들기
+## 스터디 4일차 (10월 22일)
 
-아직 뭔가 만들고 싶다는 구상이 없어서 고민중.
-실제 사용할 Component들을 서드파티 포함해서 몇개 추가해볼까 생각중이기도함.
+### React Native 스타일 관련
+React Naive > DOCS > THE BASICS의 내용에서 다음의 세가지를 한번 알아봤다.
+* Style,
+* Height and Width,
+* Layout with Flexbox
+
+[React Native 스타일 관련](https://github.com/kjk7034/ReactNativeStyling) 자료 공유.
+
+### 프로젝트 경험담 공유
+
+디자이너와의 커뮤니케이션 : 750 PSD로 작업 결정.  
+과정에서 다양한 얘기가 나왔지만, bootstrap3에서 responsive grid 750을 참고하여 30px기준으로 25개의 그리드를 나눠서 작업하기로 협의.  
+나는 개발할 떄 1개의 그리드당 4%로 생각하고 작업을 했다.  
+
+750기준으로 30px*30px의 영역을 작업한다면 Dimensions API를 이용하여 다음과 같이 사용할 수도 있다. 
+```
+const deviceWidth = Dimensions.get('window').width;
+
+const viewWidth = deviceWidth/25 * 1 // 30px 기준의 25개의 그리드. 
+const viewHeight = deviceWidth/25 * 1
+```
+
+추가적으로 0.24버전에서 작업시 border를 얇게 1px을 주고 싶은 경우 이슈가 있어서 공유했다. [borderWidth Issue](http://wagunblog.com/wp/?p=1976)  
+지금은 hairlineWidth를 이용할 수 있지만, 이 역시도 시뮬레이터가 축소되면가는 선의 선이 보이지 않을 수 있습니다. (A line with hairline width may not be visible if your simulator is downscaled.)
 
 *****
 
-## 샘플 프로젝트 진행현황 (진행 전)
+## 스터디 5일차 (11월 19일)
 
-```
-react-native init reactNativeStudy
-```
+Online 스터디로 대체함.
 
-기본 설치만 해놓은 상태.
+### javascript ES6
+[javascript ES6](https://github.com/seye2/es6) 자료 공유
 
-*****
+### React Native API
+[React Native API](https://github.com/kjk7034/ReactNativeStudy/blob/master/docs/ReactNativeAPI.md) 자료 공유
 
 ## 기타 참고자료
 

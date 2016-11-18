@@ -207,7 +207,7 @@ Methods => addListener(eventName, callback)를 이용하여 다음과 같은 eve
 
 ## Linking
 
-Linking은 브라우져를 통한 **링크, 앱간의 링크, tel:, mailto:등** 많은 부분에서 사용한다.
+Linking은 브라우져를 통한 **링크, 앱간의 링크, tel:, mailto:등**ㅎ 많은 부분에서 사용한다.
 이 API를 사용하기 위해서는 설정할 내용이 필요하니 다음 내용을 참고한다.
 
 [Linking Spec](https://facebook.github.io/react-native/docs/linking.html)을 참고하여 Android deep linking, IOS RCTLinking 연결들을 설정하고 사용하자.
