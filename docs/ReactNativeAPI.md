@@ -1,11 +1,12 @@
 # React Native API
 
 원래는 기존처럼 샘플을 모두 만들어서 공유하고 싶었다. Alert, Animated, ... 하나씩 만들다가 바쁜 업무일정으로 도저히 시간상 불가능했다.
+
 그리고 요즘 스터디원들의 개인적인 사정들과 현재의 국가적 이슈로 스터디가 연기되고 있는 상황에서, 이대로면 흐지부지 스터디가 끝날 것 같아서 일단 스텝을 끊는다는 차원에서 간단한 사용법 정도만 정리하려고 한다.
 
 예제 샘플은 스터디 처음할 때 만들었던 [React Native UIExplorer](http://wagunblog.com/wp/?p=2144)로 대체하려 한다.
-해당 예제를 설치해서 보기가 어렵다면 예제가 있는 것들은 스펙 페이지 옆에 Run this example을 클릭하면 바로 확인해 볼 수 있다.
 
+해당 예제를 설치해서 보기가 어렵다면 예제가 있는 것들은 스펙 페이지 옆에 Run this example을 클릭하면 바로 확인해 볼 수 있다.
 <img src="http://wagunblog.com/wp/wp-content/uploads/2016/11/react-native-api-0-1.png" width="40%" alt="" />
 
 그리고 IOS, Android에서만 적용되는 API는 일단 패스. 
@@ -35,7 +36,9 @@ Animated 관련 예제는 샘플 예제를 따라해보기를 추천한다.
 
 opacity를 0에서 1로 변경하는 FadeIn을 시작으로 Transform Bounce, delay, Easing등 적용한 예제를 확인 할 수 있다.
 
+```
 <Animated.View>로 PanResponder, Easing API들과 같이 사용하게 될 것이다.
+```
 
 ## AppRegistry
 
@@ -50,7 +53,7 @@ App 루트 구성 요소는 AppRegistry.registerComponent로 등록해야 한다
 
 ## AppState
 
-AppState는 앱이 포 그라운드 또는 백그라운드에 있는지 알려주고 상태가 변경 될 때 알려줌.
+AppState는 앱이 포 그라운드 또는 백그라운드에 있는지 알려주고 상태가 변경 될 때 알려줌.<br />
 (IOS 시뮬레이터에서 command + SHIFT + H + H를 이용해서 확인해 볼 수 있다.)
 
 AppState는 푸시 알림을 처리 할 때 의도 및 적절한 동작을 결정하는 데 자주 사용.
@@ -60,6 +63,7 @@ AppState는 푸시 알림을 처리 할 때 의도 및 적절한 동작을 결�
 AsyncStorage는 LocalStorage대신 사용하며 앱에서 단순하고, 암호화되지 않고, 비동기식, 영구, key-value 저장 시스템.
 
 On iOS, AsyncStorage is backed by native code that stores small values in a serialized dictionary and larger values in separate files. 
+
 On Android, AsyncStorage will use either RocksDB or SQLite based on what is available.
 
 API의 각 메소드는 Promise 객체를 반환한다.
@@ -110,6 +114,9 @@ Animated를 사용할 때 같이 사용한다. [참고](http://xaedes.de/dev/tra
 Geolocation API는 웹 사양을 확장한다. [GeolocationGeolocationGeolocationGeolocation API](https://developer.mozilla.org/en-US/docs/Web/API/GeolocationGeolocation)
 
 따로 API를 호출하지 않고 navigator.geolocation를 이용하여 사용.
+
+작업하기 전에 다음과 같은 설정이 필요할 수도 있으니 참고해보자. 
+[ReactNative Geolocation – Unable to retrieve location.](http://wagunblog.com/wp/?p=2035)
 
 ### IOS
 
@@ -200,7 +207,7 @@ Methods => addListener(eventName, callback)를 이용하여 다음과 같은 eve
 
 ## Linking
 
-Linking은 브라우져를 통한 링크, 앱간의 링크, tel:, mailto:등 많은 부분에서 사용한다.
+Linking은 브라우져를 통한 **링크, 앱간의 링크, tel:, mailto:등** 많은 부분에서 사용한다.
 이 API를 사용하기 위해서는 설정할 내용이 필요하니 다음 내용을 참고한다.
 
 [Linking Spec](https://facebook.github.io/react-native/docs/linking.html)을 참고하여 Android deep linking, IOS RCTLinking 연결들을 설정하고 사용하자.
