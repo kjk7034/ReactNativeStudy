@@ -101,7 +101,11 @@ const viewHeight = deviceWidth/25 * 1
 추가적으로 0.24버전에서 작업시 border를 얇게 1px을 주고 싶은 경우 이슈가 있어서 공유했다. [borderWidth Issue](http://wagunblog.com/wp/?p=1976)  
 지금은 hairlineWidth를 이용할 수 있지만, 이 역시도 시뮬레이터가 축소되면가는 선의 선이 보이지 않을 수 있습니다. (A line with hairline width may not be visible if your simulator is downscaled.)
 
-*****
+### Tech planet 2016에서 정윤이형이 발표한 내용 공유
+
+* 주제 : Introduction to Using NPM scripts as a Build Tool
+* [발표자료](http://readme.skplanet.com/wp-content/uploads/%ED%8A%B8%EB%9E%993-3.Introduction-to-Using-NPM-scripts-as-a-Build-Tool.without-Gulp-or-Grunt_%EB%B0%B0%ED%8F%AC.pdf) 
+* [발표영상](https://readme.skplanet.com/?p=13267)
 
 ## 스터디 5일차 (11월 19일)
 
@@ -112,6 +116,8 @@ Online 스터디로 대체함.
 
 ### React Native API
 [React Native API](https://github.com/kjk7034/ReactNativeStudy/blob/master/docs/ReactNativeAPI.md) 자료 공유
+
+*****
 
 ## 기타 참고자료
 
