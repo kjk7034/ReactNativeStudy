@@ -7,6 +7,7 @@
 예제 샘플은 스터디 처음할 때 만들었던 [React Native UIExplorer](http://wagunblog.com/wp/?p=2144)로 대체하려 한다.
 
 해당 예제를 설치해서 보기가 어렵다면 예제가 있는 것들은 스펙 페이지 옆에 Run this example을 클릭하면 바로 확인해 볼 수 있다.
+
 <img src="http://wagunblog.com/wp/wp-content/uploads/2016/11/react-native-api-0-1.png" width="40%" alt="" />
 
 그리고 IOS, Android에서만 적용되는 API는 일단 패스. 
