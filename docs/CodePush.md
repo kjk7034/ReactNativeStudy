@@ -293,11 +293,11 @@ code-push deployment ls ReactNativeComponentEx-Android -k
 
 생성한 apk-release.apk를 서버에 올려서 다운로드 받아 폰에 설치했다.
 
-<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-10.png" width="50%" alt="" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-10.png" width="30%" alt="" />
 
 설치 완료~!
 
-<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-11.png" width="50%" alt="" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-11.png" width="30%" alt="" />
 
 그리고 텍스트를 일부 수정. 이제 CodePush를 통해서 업데이트 해보자.
 
@@ -308,11 +308,11 @@ code-push deployment ls ReactNativeComponentEx-Android -k
 code-push release-react ReactNativeComponentEx-Android android
 ```
 
-<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-12.png" width="30%" alt="" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-12.png" width="30%" alt="" />
 
 업데이트를 하면 다음과 같이 텍스트가 제거된 앱을 확인할 수 있다.
 
-<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-13.png" width="30%" alt="" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-13.png" width="30%" alt="" />
 
 ## 기타
 
