@@ -1,6 +1,6 @@
 # CodePush 적용하기
 
-[CodePush](http://microsoft.github.io/code-push/index.html)는 React Native의 장점중 큰 부분을 차지한다. 일부 수정을 통해 매번 앱을 빌드하고 배포하는 과정없이 CodePush를 통해서 빌드 없이 업데이트가 가능하다.
+[CodePush](http://microsoft.github.io/code-push/index.html)는 React Native의 장점중 큰 부분을 차지한다. 일부 수정을 통해 매번 앱을 빌드하고 배포하는 과정없이 CodePush를 통해서 업데이트가 가능하다.
 
 resource를 추가한다거나 일부 기능이 추가되어 빌드를 해야하는 경우를 제외하고 컨텐츠, 스타일 같이 간단한 수정을 했을 때, 바로 적용할 수 있다.
 
@@ -28,15 +28,30 @@ GitHub, Microsoft (Personal), Microsoft (Work) 세가지의 선택중 나는 Git
 
 발급받은 키를 입력해서 등록한다.
 
+<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-01.png" alt="" width="50%" />
+
+<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-02.png" alt="" width="50%" />
+
+<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-03.png" alt="" width="50%" />
+
 ## 3. Register your app with the service
 
 ```
-code-push app add ReactNativeComponentEx
+code-push app add ReactNativeComponentEx-Android
+code-push app add ReactNativeComponentEx-iOS
 ```
 
-ReactNativeComponentEx이라는 해당 프로젝트 이름을 등록을 했다.
+CodePush에 앱이름-Android, 앱이름-iOS 앱을 등록했다.
 
-그러면 Production Deployment Key와 Staging Deployment Key가 발급된다.
+그러면 각각 Production Deployment Key와 Staging Deployment Key가 발급된다.
+
+```code-push -h```로 code-push 명령어들을 확인할 수 있다.
+
+<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-04.png" alt="" width="50%" />
+
+```code-push app list```로 등록된 앱의 목록도 확인할 수 있다.
+
+<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-05.png" alt="" width="50%" />
 
 ## 4. CodePush-ify your mobile client
 
@@ -58,7 +73,9 @@ react-native link react-native-code-push
 
 ### iOS
 
-Xcode에서 Info.plist에서 CodePushDeploymentKey에 CodePush에서 받은 Staging Deployment Key을 입력.
+Xcode에서 Info.plist에서 CodePushDeploymentKey에 CodePush에서 받은 Staging Deployment Key을 입력한다. (ReactNativeComponentEx-iOS의 Staging Deployment Key)
+
+<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-06.png" alt="" width="50%" />
 
 ### Android
 
@@ -69,14 +86,15 @@ MainApplication.java 파일에 new CodePush에 CodePush에서 받은 Staging Dep
 protected List<ReactPackage> getPackages() {
     return Arrays.<ReactPackage>asList(
         new MainReactPackage(),
-        new CodePush("TIlQvj1XU0RQOuStmrkMViN20FmlV11jsZYe-", getApplicationContext(), BuildConfig.DEBUG)
+        new CodePush("<ReactNativeComponentEx-Android의 Staging Deployment Key>", getApplicationContext(), BuildConfig.DEBUG)
     );
 }
 ```
+<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-07.png" alt="" width="50%" />
 
 ## 5. CodePush Component 생성
 
-기존에 만들은 코드에서 다음과 같이 Navigator가 실행되는 시점에 CodePushComponent를 적용했다. (예제 코드 확인)
+코드에서 다음과 같이 페이지가 처음 로드되는 시점에 CodePushComponent를 적용했다. (예제 코드 확인)
 
 ```
 <View style={{flex:1}}>
@@ -85,7 +103,7 @@ protected List<ReactPackage> getPackages() {
 </View>
 ```
 
-업데이트가 발생시 해당 업데이트과정을 보여주는 컴포넌트를 추가하고, 앱을 새로 동작하게 하는 내용을 만들었다. (CodePush에는 다양한 기능들이 있는데, 이 기능 추가적으로 필요한 부분들은 GitHub를 참고하자.) 
+내가 적용한 방법은 codePush.sync로 연결해서 syncStatus의 값에 따라 텍스트와 progress를 보여주는 컴포넌트를 생성했다. (CodePush에는 다양한 기능들이 있는데, 이 기능 추가적으로 필요한 부분들은 GitHub를 참고하자.) 
 
 ```
 import React, {Component} from 'react';
@@ -225,16 +243,18 @@ release-react 실행.
 
 ```
 // 프로젝트 경로
-code-push release-react ReactNativeComponentEx ios
+code-push release-react ReactNativeComponentEx-iOS ios
 ```
 
-code-push의 deployment 정보 확인
+--deploymentName, --description, --mandatory, --development등을 설정해서 release-react를 실행할 수도 있다.
 
 ```
-code-push deployment ls ReactNativeComponentEx -k
+code-push deployment ls ReactNativeComponentEx-iOS -k
 ```
 
-이제 시뮬레이터를 돌려보면 다음과 같이 업데이트가 존재하는 것을 확인 할 수 있다. (iOS는 실제 폰에서 테스트를 지금 하지는 못했지만, 조만간 개발자 개정 생성 후 테스트를 진행할 예정이다.)
+이제 시뮬레이터를 돌려보면 다음과 같이 업데이트가 존재하는 것을 확인 할 수 있다. (iOS는 실제 폰에서 테스트를 지금 하지는 못했지만, 조만간 추가로 진행할 예정이다.)
+
+<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-08.png" alt="" width="30%" />
 
 ### Android
 
@@ -242,14 +262,16 @@ release-react 실행.
 
 ```
 // 프로젝트 경로
-code-push release-react ReactNativeComponentEx android
+code-push release-react ReactNativeComponentEx-Android android
 ```
 
 code-push의 deployment 정보 확인
 
 ```
-code-push deployment ls ReactNativeComponentEx -k
+code-push deployment ls ReactNativeComponentEx-Android -k
 ```
+
+<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-09.png" alt="" width="30%" />
 
 ## 7. App Build
 
@@ -271,14 +293,26 @@ code-push deployment ls ReactNativeComponentEx -k
 
 생성한 apk-release.apk를 서버에 올려서 다운로드 받아 폰에 설치했다.
 
+<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-10.png" alt="" width="30%" />
+
+설치 완료~!
+
+<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-11.png" alt="" width="30%" />
+
 그리고 텍스트를 일부 수정. 이제 CodePush를 통해서 업데이트 해보자.
 
 ```
-// 텍스트 수정 (React Native COMPONENTS 샘플 - 텍스트에서 - 제거)
+// 텍스트 수정 ("React Native COMPONENTS 샘플"에서 "샘플" 제거 후 update)
 
 // 프로젝트 경로
-code-push release-react ReactNativeComponentEx android
+code-push release-react ReactNativeComponentEx-Android android
 ```
+
+<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-12.png" alt="" width="30%" />
+
+업데이트를 하면 다음과 같이 텍스트가 제거된 앱을 확인할 수 있다.
+
+<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-13.png" alt="" width="30%" />
 
 ## 기타
 
@@ -286,7 +320,7 @@ code-push release-react ReactNativeComponentEx android
 
 Production Deployment Key와 Staging Deployment Key를 사용하는 방법이 **4. CodePush-ify your mobile client** 과 다른 방법으로도 설정할 수 있다.
 
-난 Staging을 설정하고 나중에 실제 라이브서버로 배포할 때, shell을 통해서 build하는 과정에서 Staging Key를 Production로 변경하여 빌드하는 방법을 사용했다.
+난 Staging을 설정하고 나중에 실제 라이브서버로 배포할 때, 빌드하는 과정에서 shell을 통해서 다음과 같이 Staging Key를 Production Key로 변경하여 빌드하는 방법을 사용했다.
 
 ```
 // 샘플 코드
@@ -297,9 +331,9 @@ Production Deployment Key와 Staging Deployment Key를 사용하는 방법이 **
 	popd
 
 	pushd ios/
-		plutil -replace CodePushDeploymentKey -string <프로덕션 키> remote/Info.plist
-		xcodebuild -scheme remote archive -archivePath remote
-		xcodebuild -exportArchive -archivePath remote.xcarchive/ -exportPath remote -exportProvisioningProfile "<발급받은 인증서명>"
+		plutil -replace CodePushDeploymentKey -string <프로덕션 키> ReactNativeComponentEx/Info.plist
+		xcodebuild -scheme ReactNativeComponentEx archive -archivePath ReactNativeComponentEx
+		xcodebuild -exportArchive -archivePath ReactNativeComponentEx.xcarchive/ -exportPath ReactNativeComponentEx -exportProvisioningProfile "<발급받은 인증서명>"
 	popd
 )
 ```
