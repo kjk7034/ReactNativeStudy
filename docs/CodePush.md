@@ -28,11 +28,11 @@ GitHub, Microsoft (Personal), Microsoft (Work) 세가지의 선택중 나는 Git
 
 발급받은 키를 입력해서 등록한다.
 
-<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-01.png" width="40%" alt="" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-01.png" width="80%" alt="" />
 
-<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-02.png" alt="" width="50%" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-02.png" width="50%" alt="" />
 
-<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-03.png" alt="" width="50%" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-03.png" width="50%" alt="" />
 
 ## 3. Register your app with the service
 
@@ -47,11 +47,11 @@ CodePush에 앱이름-Android, 앱이름-iOS 앱을 등록했다.
 
 ```code-push -h```로 code-push 명령어들을 확인할 수 있다.
 
-<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-04.png" alt="" width="50%" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-04.png" width="50%" alt="" />
 
 ```code-push app list```로 등록된 앱의 목록도 확인할 수 있다.
 
-<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-05.png" alt="" width="50%" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-05.png" width="50%" alt="" />
 
 ## 4. CodePush-ify your mobile client
 
@@ -75,7 +75,7 @@ react-native link react-native-code-push
 
 Xcode에서 Info.plist에서 CodePushDeploymentKey에 CodePush에서 받은 Staging Deployment Key을 입력한다. (ReactNativeComponentEx-iOS의 Staging Deployment Key)
 
-<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-06.png" alt="" width="50%" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-06.png" width="50%" alt="" />
 
 ### Android
 
@@ -90,7 +90,7 @@ protected List<ReactPackage> getPackages() {
     );
 }
 ```
-<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-07.png" alt="" width="50%" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-07.png" width="50%" alt="" />
 
 ## 5. CodePush Component 생성
 
@@ -254,7 +254,7 @@ code-push deployment ls ReactNativeComponentEx-iOS -k
 
 이제 시뮬레이터를 돌려보면 다음과 같이 업데이트가 존재하는 것을 확인 할 수 있다. (iOS는 실제 폰에서 테스트를 지금 하지는 못했지만, 조만간 추가로 진행할 예정이다.)
 
-<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-08.png" alt="" width="30%" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-08.png" width="50%" alt="" />
 
 ### Android
 
@@ -271,7 +271,7 @@ code-push의 deployment 정보 확인
 code-push deployment ls ReactNativeComponentEx-Android -k
 ```
 
-<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-09.png" alt="" width="30%" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-09.png" width="50%" alt="" />
 
 ## 7. App Build
 
@@ -293,11 +293,11 @@ code-push deployment ls ReactNativeComponentEx-Android -k
 
 생성한 apk-release.apk를 서버에 올려서 다운로드 받아 폰에 설치했다.
 
-<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-10.png" alt="" width="30%" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-10.png" width="50%" alt="" />
 
 설치 완료~!
 
-<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-11.png" alt="" width="30%" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-11.png" width="50%" alt="" />
 
 그리고 텍스트를 일부 수정. 이제 CodePush를 통해서 업데이트 해보자.
 
@@ -308,11 +308,11 @@ code-push deployment ls ReactNativeComponentEx-Android -k
 code-push release-react ReactNativeComponentEx-Android android
 ```
 
-<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-12.png" alt="" width="30%" />
+<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-12.png" width="30%" alt="" />
 
 업데이트를 하면 다음과 같이 텍스트가 제거된 앱을 확인할 수 있다.
 
-<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-13.png" alt="" width="30%" />
+<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-13.png" width="30%" alt="" />
 
 ## 기타
 
