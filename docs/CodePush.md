@@ -28,7 +28,7 @@ GitHub, Microsoft (Personal), Microsoft (Work) 세가지의 선택중 나는 Git
 
 발급받은 키를 입력해서 등록한다.
 
-<img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-01.png" alt="" width="50%" />
+<img src="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-01.png" width="40%" alt="" />
 
 <img scr="http://wagunblog.com/wp/wp-content/uploads/2016/12/codepush-02.png" alt="" width="50%" />
 
