@@ -127,11 +127,23 @@ Online 스터디로 대체함.
 
 [CodePush](https://github.com/kjk7034/ReactNativeStudy/blob/master/docs/CodePush.md) 자료 공유 및 시연
 
+[ReactNative - Exponent](https://github.com/kjk7034/ReactNativeExponent) 자료 공유
+
+[NativeBase-KitchenSink v0.5.18](https://github.com/GeekyAnts/NativeBase-KitchenSink) 소개
+
 스터디 5일차에 진행했던, [javascript ES6](https://github.com/seye2/es6) 설명
 
 동훈이가 요즘 보고 있는 universal rendering중 **[Next.js](https://zeit.co/blog/next)** 소개
 
-스터디 마무리...
+*****
+
+# 스터디를 마무리하며...
+
+React Native를 실무에 적용했던 과거의 버전과 지금의 버전의 차이에 대해서 많이 달라진 점에 대해서 알 수 있었고, 처음 적용할 떄 보다 기본적인 내용들에 대해서 정리하면서 더 깊에 알수 있는 시간이 되어서 좋았다.
+
+React Native 스터디라는 주제를 잡고 시작했지만, PWA, AMP, NPM scripts, universal rendering등 다양한 이야기들을 할 수 있는것도 좋았다.
+
+1인 1앱 만들기위한 목표로 출발을 했지만, 개개인의 바쁜 일정으로 각자 만들어서 서로 코드를 공유하는 부분을 하지 못한 점이 가장 아쉬웠다.
 
 *****
 
