@@ -1,130 +1,187 @@
 # React Native Study
 
-react native 스터디를 참여하면서 개인적으로 정리하는 곳.
+이 글은 [React Native](https://facebook.github.io/react-native/)를 해보고 싶은데, [React Native Getting Started](https://facebook.github.io/react-native/docs/getting-started.html)와 [React Native Getting Tutorial](https://facebook.github.io/react-native/docs/tutorial.html)을 보고 따라 하기 쉽지 않은 사람에게 도움이 되었으면 하는 마음에 스터디가 끝나고 새롭게 목차를 정리했다.
 
-내가 처음 공부할 때 처럼 ReactNative는 해보고 싶은데 뭐부터 해야할지 잘 모르는 사람에게 도움이 되었으면 하는 마음에 정리를 합니다.
+해당 목차는 React Native를 통해서 앱을 만드는 과정에 대해서 작성하려 한다.
 
-## 스터디 최초 아젠다
+해당 내용 외에 추가적으로 필요하거나 궁금한 내용들은 [Facebook group - 생활코딩](https://www.facebook.com/groups/codingeverybody/), [Facebook group - React Korea](https://www.facebook.com/groups/react.ko/) 같은 커뮤니티에 물어보면 좋은 답변을 받을 수 있을 것이다.
 
-아젠다를 나름 만들기는 했지만 실제로 이 아젠다로 진행이 되지는 않았다.
+개인적으로 궁금한 내용은 이메일로 문의를 ...
 
-여러 스터디를 진행 및 참가하면서 기간이 길어지고 스터디의 방향성이 모호해지는 경우 흐지부지 되는 경우가 많아서 목표를 설정하고 필요한 부분에 대해서 단계적으로 진행하기로 계획을 했다. 
+기존에 스터디를 진행하면서 간단하게 정리한 내용들은 [스터디 정리 문서](https://github.com/kjk7034/ReactNativeStudy/blob/master/docs/RealStudy.md)로 옮겼다.
 
-1단계는 각자 원하는 자신만의 앱을 하나씩 만들어 보는 것. 여러 컴포넌트들 및 API를 통해서 로컬 환경에서의 앱 개발.
+**스터디 정리 문서**에는 스터디 시작 전 아젠다부터, 스터디 목표 설정 과정, 스터디 주차별 내용 정리, 기타 참고 자료 등이 포함되어 있다.
 
-2단계는 앱 배포 및 Codepush 등 을 통해서 업데이트
+샘플 작업을 한 코드, 문서들에 부족한 부분이 있어서 추가하고 싶거나 잘못된 내용에 대한 피드백이 있으신 분들은 언제든 환영합니다. 같이 더 나은 콘텐츠를 만들고 싶은 분들도 환영합니다.
 
-3단계는 Redux를 통해서 state를 관리하는 것을 최종 목표로 생각하고 있으며 일단 1단계부터 Agenda를 만들어서 진행.
+그리고 튜토리얼의 개념처럼 하나씩 따라 해보기를 원하는 분들은 지금까지 본 자료 중에서는 [React Native Express](http://www.reactnativeexpress.com/)가 제일 좋은 것 같다.
 
-1단계 상세 아젠다는 [스터디 정보](https://github.com/kjk7034/ReactNativeStudy/blob/master/docs/StudyAgenda.md)에서 확인할 수 있다 
+## 스터디 구성원 (4명)
 
-*****
+이 자료를 만드는데 도움을 주신 우리 스터디 구성원입니다. :)
 
-# 스터디 내용 정리
+* [김준극](https://github.com/kjk7034)
+* [김정윤](https://github.com/bowaxwing)
+* [남동훈](https://github.com/seye2)
+* [서재현](https://github.com/jejette)
 
-## 스터디 1일차 (9월 24일)
+## 추천목차
 
-### 프로젝트 환경설정
+1. 스터디 목표 세우기
+2. 프로젝트 환경설정
+3. React Lifecycle
+4. React Native
+    1. COMPONENTS
+    2. APIS
+    3. 스타일 입히기
+    4. JavaScript Environment
+5. 샘플 앱 만들기
+6. 배포용 파일 만들기
+7. Codepush 적용하기
+8. 기타
 
-내가 처음에 환경설정할 때 React Native 버전은 0.18... 지금은 0.32.0 ... 참으로 빠르다는 생각이... 
+## 1. 스터디 목표 세우기
 
-[React Native Getting Started](https://facebook.github.io/react-native/docs/getting-started.html)를 참고하면 된다. 오랜만에 보니 전보다 훨씬 잘 정리가 되어있었음
+단순하게 Components, API 등을 따라 하기 보다, 본인이 만들고 싶은 간단한 샘플 앱을 목표로 세우고 진행하면 좋을 것 같다.
 
-전에 내가 세팅하던 과정. (참고용) [Wise의 React Native – 기본 세팅하기](http://wagunblog.com/wp/?p=1855)
+생각나는 앱이 없으면 Open API를 이용한 날씨 앱도 괜찮음. ([Weather Planet](https://developers.skplanetx.com/apidoc/kor/weather/))
 
-### React Native UIExplorer 설치 및 확인(MAC)
+## 2. 프로젝트 환경설정
 
-[React Native UIExplorer 설치 및 확인(MAC)](http://wagunblog.com/wp/?p=2144) 발표
+Mac도 많이 안 써보고, 앱 개발도 잘 모르는 분들에게는 이 과정이 제일 힘들 것 같다.
 
-### 기타 사항
+그나마 다행인 건 예전(0.17 version)에는 없었지만, 지금(0.39 version)은 [React Native Getting Started](https://facebook.github.io/react-native/docs/getting-started.html)에 OS 별로 어떻게 설정해야 하는지 잘 정리가 되어있다.
 
-스터디 장소 및 일정은 상황에 따라 주마다 유동적으로, 스터디 발표는 랜덤 발표!! 당일날 뽑아서 발표.
+[Wise의 React Native – 기본 세팅하기](http://wagunblog.com/wp/?p=1855)에서 링크의 내용들이 지금 많이 바뀌어서 해당 글만 보고 이해가 어려운 부분들이 있으니 가볍게 참고.
 
-## 스터디 2일차 (10월 1일)
+**React Native Getting Started**를 진행하다가 개개인의 작업환경에 따라 환경 변수를 이미 다르게 지정했던가 기타 다른 여러 이슈들로 문제가 발생할 수 있다.
 
-회사를 다니며 스터디 예습하고 준비하기는 역시 많이 힘든 듯. 모두 다 준비해오지는 못했고, 그래도 지난주 진행했던 환경설정까지는 모두 마무리해왔다.
-Lifecycle을 발표하는데 생각보다 많은 시간이 들었으며, Component를 하기 시간도 애매하고 예습도 많이 해오지는 않은 상태라 Component는 다음 주에 이어서 진행하기로 하고, 최근 동훈이가 관심을 가지고 있는 기술에 대해서 진행했다.  
+이런 경우 주변 지인들이나 [Facebook group - 생활코딩](https://www.facebook.com/groups/codingeverybody/), [Facebook group - React Korea](https://www.facebook.com/groups/react.ko/) 같은 커뮤니티에 물어보면 좋은 정보를 얻을 것이다.
 
-### Lifecycle
+기본 환경설정이 끝났으면 [react-native/Examples/UIExplorer/](https://github.com/facebook/react-native/tree/master/Examples/UIExplorer)를 실행해보자.
+
+이유는 React Native에서 사용하는 Component, API 기본 기능들을 하나씩 확인할 수 있다.
+
+실행하는 과정은 [React Native UIExplorer 설치 및 확인(MAC)](http://wagunblog.com/wp/?p=2144)을 참고.
+
+실행하지 않고도 [USE REACT NATIVE - IOS BASE COMPONENTS](http://www.reactnative.com/uiexplorer/)에서도 확인할 수 있다.
+
+## 3. React && Lifecycle
+
+React Native를 진행하려면 props, state 등 기본적인 React에 대한 이해가 있어야 한다.
+
+React에 대한 기본 지식이 없으면, [React JS 강좌](https://www.inflearn.com/course/react-%ea%b0%95%ec%a2%8c-velopert/?action=curriculum)를 통해서 기본 지식을 얻을 수 있다.
+
+그리고 React LifeCycle에 대한 이해를 더 돕기 위해서 다음 링크들도 참고하자.
 
 * [React Component Specs and Lifecycle 발표](https://github.com/kjk7034/ReactLifecycle)
-* [React Native Express - 참고 사이트](http://www.reactnativeexpress.com/)
+* [[React.JS] 강좌 7편 Component LifeCycle API](https://velopert.com/1130)
 * [참고이미지 - imgh.us/react-lifecycle.svg](http://imgh.us/react-lifecycle.svg)
 
-### 동훈이가 최근 관심을 가지고 있는 부분
+## 4. React Native
 
-#### PWA
+**React Native > Docs**에는 THE BASICS, GUIDES, GUIDES (IOS), GUIDES (ANDROID), COMPONENTS, APIS으로 정리되어 있다.
 
-*[PWA - Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)*.
+처음부터 하나씩 다 읽어보고 작업하는 것을 권장한다. 영어를 못하는 분들도 요즘 구글 번역이 예전에 비해서 퀄리티도 높아져서 조금은 이해할 수 있을 것이다. 
 
-PWA 예제 사이트를 보면서 IndexDB, manifest cache, service worker 등에 대한 얘기가 나왔으며, 그중 가장 핫하게 받아들이고 있는 부분은 service worker였다.
-  
-#### AMP
- 
-*[AMP - Accelerated Mobile Pages](https://www.ampproject.org/)*를 적용한 경험담.
+해당 글은 React Native에서 사용하는 Component, API 들과 스타일을 입히는 방식을 통해서 원하는 앱을 만드는 과정을 설명하고자 한다.
 
-AMP가 대충 이런 거다는 알고 있었지만 조금 더 들어가서 validation의 통과 여부에 따른 google 검색 노출 여부.
-지도 작업 관련해서는 ifame을 통해서 구현 가능.  
+참고용 샘플 예제들은 모든 Props, Methods를 테스트하지는 않았다.
 
-## 스터디 3일차 (10월 15일)
+해당 샘플을 clone 해서 샘플에 없는 Props, Method들을 다 테스트해보기를 권장하며, 테스트하면서 UIExplorer의 내용도 같이 참고해보자.
 
-인원들의 사정으로 Online 스터디로 대체함.
+**환경설정**에서 프로젝트 생성과 run을 해봤을 것이다.
 
-### 컴포넌트 예제 따라해보기.
-
-[React Native Component 예제 !!](https://github.com/kjk7034/ReactNativeComponentEx) 자료 공유.
-
-## 스터디 4일차 (10월 22일)
-
-### React Native 스타일 관련
-React Naive > DOCS > THE BASICS의 내용에서 다음의 세가지를 한번 알아봤다.
-* Style,
-* Height and Width,
-* Layout with Flexbox
-
-[React Native 스타일 관련](https://github.com/kjk7034/ReactNativeStyling) 자료 공유.
-
-### 프로젝트 경험담 공유
-
-디자이너와의 커뮤니케이션 : 750 PSD로 작업 결정.  
-과정에서 다양한 얘기가 나왔지만, bootstrap3에서 responsive grid 750을 참고하여 30px기준으로 25개의 그리드를 나눠서 작업하기로 협의.  
-나는 개발할 떄 1개의 그리드당 4%로 생각하고 작업을 했다.  
-
-750기준으로 30px*30px의 영역을 작업한다면 Dimensions API를 이용하여 다음과 같이 사용할 수도 있다. 
 ```
-const deviceWidth = Dimensions.get('window').width;
-
-const viewWidth = deviceWidth/25 * 1 // 30px 기준의 25개의 그리드. 
-const viewHeight = deviceWidth/25 * 1
+react-native init 프로젝트명
 ```
 
-추가적으로 0.24버전에서 작업시 border를 얇게 1px을 주고 싶은 경우 이슈가 있어서 공유했다. [borderWidth Issue](http://wagunblog.com/wp/?p=1976)  
-지금은 hairlineWidth를 이용할 수 있지만, 이 역시도 시뮬레이터가 축소되면가는 선의 선이 보이지 않을 수 있습니다. (A line with hairline width may not be visible if your simulator is downscaled.)
+최초 생성된 프로젝트에서 iOS는 index.ios.js, 안드로이드는 index.android.js 파일이 index 파일이라는 것을 알 수 있다.
 
-### Tech planet 2016에서 정윤이형이 발표한 내용 공유
+React Native의 장점이 하나의 코드로 iOS와 안드로이드를 동시에 만들 수 있는 것이라고 생각한다. 아래의 코드를 index.ios.js, index.android.js 동시에 적용해서 app이라는 폴더를 기준으로 샘플 작업들을 했다.
 
-* 주제 : Introduction to Using NPM scripts as a Build Tool
-* [발표자료](http://readme.skplanet.com/wp-content/uploads/%ED%8A%B8%EB%9E%993-3.Introduction-to-Using-NPM-scripts-as-a-Build-Tool.without-Gulp-or-Grunt_%EB%B0%B0%ED%8F%AC.pdf) 
-* [발표영상](https://readme.skplanet.com/?p=13267)
+```
+import {
+    AppRegistry
+} from 'react-native';
 
-## 스터디 5일차 (11월 19일)
+import { App } from './app';
 
-Online 스터디로 대체함.
+AppRegistry.registerComponent('프로젝트명', () => App);
+```
 
-### javascript ES6
-[javascript ES6](https://github.com/seye2/es6) 자료 공유
+### 4.1 COMPONENTS
 
-### React Native API
-[React Native API](https://github.com/kjk7034/ReactNativeStudy/blob/master/docs/ReactNativeAPI.md) 자료 공유
+React Native Component는 [React Native Component 예제 !!](https://github.com/kjk7034/ReactNativeComponentEx)에 정리를 했다.
 
-*****
+샘플 예제들을 참고하면서 원하는 스타일을 테스트해보자.
 
-## 기타 참고자료
+xxxxxIOS, xxxxxAndroid와 같이 iOS, 안드로이드만 지원하는 부분들은 제외했지만, iOS or 안드로이드 앱을 동시에 만드는 것이 아닌 하나만 만드는 분들은 해당 내용도 꼭 테스트해보세요.
 
-* [React & Express 를 이용한 웹 어플리케이션 개발하기](https://www.inflearn.com/course/react-%EA%B0%95%EC%A2%8C-velopert/)
-* [React Native를 사용한  초간단 커뮤니티 앱 제작](http://www.slideshare.net/taggon/react-native)
-* [리액트 네이티브로 시작하는 앱 개발 #1](https://realm.io/kr/news/react-native/)
-* [앱 예제 - SendBird 채팅앱](http://blog.sendbird.com/ko/tutorialreact-native%EC%97%90%EC%84%9C-%EC%B1%84%ED%8C%85-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/)
-* [앱 예제 - open API 활용 예제](https://github.com/kjk7034/RealTimeEmergencyDepartmentInfo)
-* [react-native-tutorial-korean 자료](https://g6ling.gitbooks.io/react-native-tutorial-korean/content/1-1ko.html)
-* [React 공부 정리](http://www.sangkon.com/2016/08/02/react-study-01/)
+### 4.2 APIS
+
+React Native API는 Component처럼 샘플 코드를 다 만들고 싶었지만 바쁜 업무로 간단하게 Docs를 정리하는 수준에서 경험한 내용들을 추가로 작성했다. 안 써본 API들도 있어서 해당 API들은 구글 번역을 통해서 복사 붙여넣기를 했다.
+
+[React Native API](https://github.com/kjk7034/ReactNativeStudy/blob/master/docs/ReactNativeAPI.md)에서 정리된 내용을 확인할 수 있다.
+
+### 4.3 스타일 입히기
+
+기본적인 컴포넌트로 어느 정도 구조를 만들었다면 이제 표현의 단계인 스타일을 입히는 과정에 대해서 알아보자. 기본적으로 StyleSheet을 사용하는 방법, width와 height, flexbox에 대한 이해가 필요하다.
+
+[React Native 스타일 관련](https://github.com/kjk7034/ReactNativeStyling)에 정리를 했다.
+
+CSS Flexbox에 대한 내용을 잘 모르겠으면, [CSS TRICKS - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)를 참고하자.
+
+### 4.4 JavaScript Environment
+
+버전 0.5.0부터 React Native는 Babel 자바스크립트 컴파일러를 사용한다.
+
+[React Native 0.39의 JavaScript Environment](http://facebook.github.io/react-native/releases/0.39/docs/javascript-environment.html)에서 ES5, 6, 7 사용 가능한 문법을 확인할 수 있다.
+
+ES6에 대해 모든 것은 아니지만 많이 사용할 것 같은 내용을 [ES6 - seye2](https://github.com/seye2/es6)에 정리했다. 
+
+## 5. 샘플 앱 만들기
+
+위의 내용들을 토대로 간단하게 샘플 앱을 만들어 볼 수 있다.
+
+[공공데이터 포털 API (전국 응급의료기관 조회 서비스)](https://www.data.go.kr/subMain.jsp?param=T1BFTkFQSUAxNTAwMDU2Mw==#/L3B1YnIvdXNlL3ByaS9Jcm9zT3BlbkFwaURldGFpbC9vcGVuQXBpTGlzdFBhZ2UkQF4wMTJtMjEkQF5wdWJsaWNEYXRhUGs9MTUwMDA1NjMkQF5icm1DZD1PQzAwMDkkQF5tYWluRmxhZz10cnVl), [위치 좌표 - 다음 지도 API](https://developers.daum.net/services/apis/local/geo/coord2addr)를 통해서 간단하게 [응급실 실시간 가용 병상정보 App](https://github.com/kjk7034/RealTimeEmergencyDepartmentInfo)를 만들었다.
+
+앱을 만드는 과정에서 React Native COMPONENTS에서 제공하지 않는 기능이 필요한 경우가 많다.
+
+이런 경우 직접 앱 개발을 해도 되겠지만, 내가 필요한 내용은 이미 다른 사람들도 필요했을 것이고 잘 찾아보면 다양한 서드파티들이 있으니 선택해서 사용하면 된다.
+
+어디에 무엇이 있는지 잘 모르겠으면, [js.coach의 react-native](https://js.coach/react-native)에 다양한 서드파티들이 있으니 한번 쭉 보고 나중에 필요한 기능들을 가져다 쓰면 된다.
+
+예를 들어 카메라 기능이 필요해서 react-native-camera를 적용하는 과정에 대해서 [React Native 서드파티 컴포넌트 적용하기](https://github.com/kjk7034/ReactNativeCameraExample)에 정리했다.
+
+## 6. APK 배포용 파일 만들기
+
+샘플 앱을 만들었으면 이제 우리가 폰에서 직접 볼 수 있도록 배포용 파일을 만들어야 한다. 
+
+[Generating Signed APK](https://facebook.github.io/react-native/docs/signed-apk-android.html)을 보고할 수 있다.
+
+테스트 과정은 [React Native - Generating Signed APK](https://github.com/kjk7034/ReactNativeStudy/blob/master/docs/GeneratingSignedAPK.md)에 정리했다.
+
+## 7. Codepush 적용하기
+
+개인적으로 생각하는 React Native를 사용하는 이유 중 **가장 큰 장점**이 Codepush라고 생각한다.
+
+앱에 간단한 수정이 발생했을 때 매번 앱을 다시 빌드 해서 배포하고 있지만 이런 과정을 획기적으로 줄여주는 단계라고 생각한다.
+
+테스트 과정은 [CodePush 적용하기](https://github.com/kjk7034/ReactNativeStudy/blob/master/docs/CodePush.md)에 정리했다.
+
+## 8. 기타 소개
+
+### mobile app development tool (Exponent)
+
+React Native로 앱을 만들며, Exponent SDK는 연락처, 카메라 및 소셜 로그인과 같은 시스템 기능에 대한 액세스를 제공한다.
+
+[ReactNative - Exponent](https://github.com/kjk7034/ReactNativeExponent)에 정리했다.
+
+### UI 관련 (NativeBase)
+
+작업을 하다 보면 Tab, 버튼 등등 수많은 UI 관련 컴포넌트들이 필요할 것이다. 
+
+여러 참고할 만한 사이트 중에서 [NativeBase-KitchenSink v0.5.18](https://github.com/GeekyAnts/NativeBase-KitchenSink)이 제일 괜찮은 것 같다.
+
+앱을 다운로드해서 본인의 폰으로 테스트를 해보고 쓸만한 컴포넌트들은 커스텀 해서 쓰던가 혹은 [NativeBase](http://nativebase.io/)를 활용할 수도 있다.
