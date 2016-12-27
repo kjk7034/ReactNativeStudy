@@ -108,15 +108,29 @@ Online 스터디로 대체함.
 
 ## 스터디 7일차 (12월 10일)
 
+### CodePush
+
 [CodePush](https://github.com/kjk7034/ReactNativeStudy/blob/master/docs/CodePush.md) 자료 공유 및 시연
+
+### Exponent
 
 [ReactNative - Exponent](https://github.com/kjk7034/ReactNativeExponent) 자료 공유
 
+### UI 컴포넌트 관련 NativeBase
+
 [NativeBase-KitchenSink v0.5.18](https://github.com/GeekyAnts/NativeBase-KitchenSink) 소개
+
+### ES6 발표
 
 스터디 5일차에 진행했던, [javascript ES6](https://github.com/seye2/es6) 설명
 
-동훈이가 요즘 보고 있는 universal rendering중 **[Next.js](https://zeit.co/blog/next)** 소개
+### 동훈이가 요즘 보고 있는 universal rendering 
+
+**[Next.js](https://zeit.co/blog/next)** 소개
+
+soketio 만든 사람이 만들었음.
+
+router를 서버측, 클라이언트측으로 구분해서 쉽게 렌더링할 수 있는게 장점이라 느꼈다.
 
 *****
 
