@@ -84,24 +84,7 @@ React Naive > DOCS > THE BASICS의 내용에서 다음의 세가지를 한번 �
 * Height and Width,
 * Layout with Flexbox
 
-[React Native 스타일 관련](https://github.com/kjk7034/ReactNativeStyling) 자료 공유.
-
-### 프로젝트 경험담 공유
-
-디자이너와의 커뮤니케이션 : 750 PSD로 작업 결정.  
-과정에서 다양한 얘기가 나왔지만, bootstrap3에서 responsive grid 750을 참고하여 30px기준으로 25개의 그리드를 나눠서 작업하기로 협의.  
-나는 개발할 떄 1개의 그리드당 4%로 생각하고 작업을 했다.  
-
-750기준으로 30px*30px의 영역을 작업한다면 Dimensions API를 이용하여 다음과 같이 사용할 수도 있다. 
-```
-const deviceWidth = Dimensions.get('window').width;
-
-const viewWidth = deviceWidth/25 * 1 // 30px 기준의 25개의 그리드. 
-const viewHeight = deviceWidth/25 * 1
-```
-
-추가적으로 0.24버전에서 작업시 border를 얇게 1px을 주고 싶은 경우 이슈가 있어서 공유했다. [borderWidth Issue](http://wagunblog.com/wp/?p=1976)  
-지금은 hairlineWidth를 이용할 수 있지만, 이 역시도 시뮬레이터가 축소되면가는 선의 선이 보이지 않을 수 있습니다. (A line with hairline width may not be visible if your simulator is downscaled.)
+[React Native 스타일 관련](https://github.com/kjk7034/ReactNativeStyling) 자료 공유. (경험담 포함)
 
 ### Tech planet 2016에서 정윤이형이 발표한 내용 공유
 
