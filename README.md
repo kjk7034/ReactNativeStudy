@@ -27,7 +27,7 @@
 
 1. 스터디 목표 세우기
 2. 프로젝트 환경설정
-3. React Lifecycle
+3. React의 이해
 4. React Native
     1. COMPONENTS
     2. APIS
@@ -64,11 +64,11 @@ Mac도 많이 안 써보고, 앱 개발도 잘 모르는 분들에게는 이 과
 
 실행하지 않고도 [USE REACT NATIVE - IOS BASE COMPONENTS](http://www.reactnative.com/uiexplorer/)에서도 확인할 수 있다.
 
-## 3. React && Lifecycle
+## 3. React의 이해
 
 React Native를 진행하려면 props, state 등 기본적인 React에 대한 이해가 있어야 한다.
 
-React에 대한 기본 지식이 없으면, [React JS 강좌](https://www.inflearn.com/course/react-%ea%b0%95%ec%a2%8c-velopert/?action=curriculum)를 통해서 기본 지식을 얻을 수 있다.
+React에 대한 기본 지식이 없으면, [[React.JS] 강좌](https://velopert.com/775)를 통해서 기본 지식을 얻을 수 있다.
 
 그리고 React LifeCycle에 대한 이해를 더 돕기 위해서 다음 링크들도 참고하자.
 
