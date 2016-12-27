@@ -1,14 +1,12 @@
 # React Native Study
 
-이 글은 [React Native](https://facebook.github.io/react-native/)를 해보고 싶은데, [React Native Getting Started](https://facebook.github.io/react-native/docs/getting-started.html)와 [React Native Getting Tutorial](https://facebook.github.io/react-native/docs/tutorial.html)을 보고 따라 하기 쉽지 않은 사람에게 도움이 되었으면 하는 마음에 스터디가 끝나고 새롭게 목차를 정리했다.
-
-해당 목차는 React Native를 통해서 앱을 만드는 과정에 대해서 작성하려 한다.
+이 글은 [React Native](https://facebook.github.io/react-native/)를 해보고 싶은데, [React Native Getting Started](https://facebook.github.io/react-native/docs/getting-started.html)와 [React Native Getting Tutorial](https://facebook.github.io/react-native/docs/tutorial.html)을 보고 따라 하기 쉽지 않은 분, 튜토리얼은 따라 할 수 있지만 뭘 어떻게 해야 할지 모르는 분에게 조금이나마 도움이 되었으면 하는 마음에 스터디가 끝나고 새롭게 글을 정리했다.
 
 해당 내용 외에 추가적으로 필요하거나 궁금한 내용들은 [Facebook group - 생활코딩](https://www.facebook.com/groups/codingeverybody/), [Facebook group - React Korea](https://www.facebook.com/groups/react.ko/) 같은 커뮤니티에 물어보면 좋은 답변을 받을 수 있을 것이다.
 
 개인적으로 궁금한 내용은 이메일로 문의를 ...
 
-기존에 스터디를 진행하면서 간단하게 정리한 내용들은 [스터디 정리 문서](https://github.com/kjk7034/ReactNativeStudy/blob/master/docs/RealStudy.md)로 옮겼다.
+기존에 스터디를 진행하면서 간단하게 정리한 내용들은 **[스터디 정리 문서](https://github.com/kjk7034/ReactNativeStudy/blob/master/docs/RealStudy.md)**로 옮겼다.
 
 **스터디 정리 문서**에는 스터디 시작 전 아젠다부터, 스터디 목표 설정 과정, 스터디 주차별 내용 정리, 기타 참고 자료 등이 포함되어 있다.
 
