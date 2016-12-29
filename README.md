@@ -1,6 +1,6 @@
 # React Native Study
 
-이 글은 [React Native](https://facebook.github.io/react-native/)를 해보고 싶은데, [React Native Getting Started](https://facebook.github.io/react-native/docs/getting-started.html)와 [React Native Getting Tutorial](https://facebook.github.io/react-native/docs/tutorial.html)을 보고 따라 하기 쉽지 않은 분, 튜토리얼은 따라 할 수 있지만 뭘 어떻게 해야 할지 모르는 분에게 조금이나마 도움이 되었으면 하는 마음에 스터디가 끝나고 새롭게 글을 정리했다.
+이 글은 [React Native](https://facebook.github.io/react-native/)를 해보고 싶은데 어디부터 어떻게 시작해야 할지 막막한 분들이나, React Native 스터디를 하려는 분들에게 조금이나마 도움이 되었으면 하는 마음에 스터디가 끝나고 새롭게 글을 정리했다.
 
 해당 내용 외에 추가적으로 필요하거나 궁금한 내용들은 [Facebook group - 생활코딩](https://www.facebook.com/groups/codingeverybody/), [Facebook group - React Korea](https://www.facebook.com/groups/react.ko/) 같은 커뮤니티에 물어보면 좋은 답변을 받을 수 있을 것이다.
 
@@ -12,7 +12,7 @@
 
 샘플 작업을 한 코드, 문서들에 부족한 부분이 있어서 추가하고 싶거나 잘못된 내용에 대한 피드백이 있으신 분들은 언제든 환영합니다. 같이 더 나은 콘텐츠를 만들고 싶은 분들도 환영합니다.
 
-그리고 튜토리얼의 개념처럼 하나씩 따라 해보기를 원하는 분들은 지금까지 본 자료 중에서는 [React Native Express](http://www.reactnativeexpress.com/)가 제일 좋은 것 같다.
+그리고 **튜토리얼**처럼 하나씩 따라 해보기를 원하는 분들은 이 글보다는 [React Native Express](http://www.reactnativeexpress.com/), [react-native-tutorial-korean](https://g6ling.gitbooks.io/react-native-tutorial-korean/content/1-1ko.html)이 지금까지 본 자료 중에서는  제일 좋은 것 같다.
 
 ## 스터디 구성원 (4명)
 
