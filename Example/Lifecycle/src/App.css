@@ -1,0 +1,15 @@
+.App {
+  padding: 20px;
+}
+.tabList {
+  display: flex;
+}
+.tabList li {
+  flex:1;
+}
+.component-box {
+  border: 1px solid #999;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
