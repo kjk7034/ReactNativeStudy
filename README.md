@@ -72,7 +72,7 @@ React에 대한 기본 지식이 없으면, [[React.JS] 강좌](https://velopert
 
 그리고 React LifeCycle에 대한 이해를 더 돕기 위해서 다음 링크들도 참고하자.
 
-* [React Component Specs and Lifecycle 발표](https://github.com/kjk7034/ReactLifecycle)
+* [React Component Specs and Lifecycle 발표](https://github.com/kjk7034/ReactNativeStudy/tree/master/Example/Lifecycle)
 * [[React.JS] 강좌 7편 Component LifeCycle API](https://velopert.com/1130)
 * [참고이미지 - imgh.us/react-lifecycle.svg](http://imgh.us/react-lifecycle.svg)
 
@@ -80,7 +80,7 @@ React에 대한 기본 지식이 없으면, [[React.JS] 강좌](https://velopert
 
 **React Native > Docs**에는 THE BASICS, GUIDES, GUIDES (IOS), GUIDES (ANDROID), COMPONENTS, APIS으로 정리되어 있다.
 
-처음부터 하나씩 다 읽어보고 작업하는 것을 권장한다. 영어를 못하는 분들도 요즘 구글 번역이 예전에 비해서 퀄리티도 높아져서 조금은 이해할 수 있을 것이다. 
+처음부터 하나씩 다 읽어보고 작업하는 것을 권장한다. 영어를 못하는 분들도 요즘 구글 번역이 예전에 비해서 퀄리티도 높아져서 조금은 이해할 수 있을 것이다.
 
 해당 글은 React Native에서 사용하는 Component, API 들과 스타일을 입히는 방식을 통해서 원하는 앱을 만드는 과정을 설명하고자 한다.
 
@@ -110,7 +110,7 @@ AppRegistry.registerComponent('프로젝트명', () => App);
 
 ### 4.1 COMPONENTS
 
-React Native Component는 [React Native Component 예제 !!](https://github.com/kjk7034/ReactNativeComponentEx)에 정리를 했다.
+React Native Component는 [React Native Component 예제 !!](https://github.com/kjk7034/ReactNativeStudy/tree/master/Example/Components)에 정리를 했다.
 
 샘플 예제들을 참고하면서 원하는 스타일을 테스트해보자.
 
@@ -126,7 +126,7 @@ React Native API는 Component처럼 샘플 코드를 다 만들고 싶었지만 
 
 기본적인 컴포넌트로 어느 정도 구조를 만들었다면 이제 표현의 단계인 스타일을 입히는 과정에 대해서 알아보자. 기본적으로 StyleSheet을 사용하는 방법, width와 height, flexbox에 대한 이해가 필요하다.
 
-[React Native 스타일 관련](https://github.com/kjk7034/ReactNativeStyling)에 정리를 했다.
+[React Native 스타일 관련](https://github.com/kjk7034/ReactNativeStudy/tree/master/Example/Styling)에 정리를 했다.
 
 CSS Flexbox에 대한 내용을 잘 모르겠으면, [CSS TRICKS - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)를 참고하자.
 
@@ -136,7 +136,7 @@ CSS Flexbox에 대한 내용을 잘 모르겠으면, [CSS TRICKS - A Complete Gu
 
 [React Native 0.39의 JavaScript Environment](http://facebook.github.io/react-native/releases/0.39/docs/javascript-environment.html)에서 ES5, 6, 7 사용 가능한 문법을 확인할 수 있다.
 
-ES6에 대해 모든 것은 아니지만 많이 사용할 것 같은 내용을 [ES6 - seye2](https://github.com/seye2/es6)에 정리했다. 
+ES6에 대해 모든 것은 아니지만 많이 사용할 것 같은 내용을 [ES6 - seye2](https://github.com/seye2/es6)에 정리했다.
 
 ## 5. 샘플 앱 만들기
 
@@ -150,11 +150,11 @@ ES6에 대해 모든 것은 아니지만 많이 사용할 것 같은 내용을 [
 
 어디에 무엇이 있는지 잘 모르겠으면, [js.coach의 react-native](https://js.coach/react-native)에 다양한 서드파티들이 있으니 한번 쭉 보고 나중에 필요한 기능들을 가져다 쓰면 된다.
 
-예를 들어 카메라 기능이 필요해서 react-native-camera를 적용하는 과정에 대해서 [React Native 서드파티 컴포넌트 적용하기](https://github.com/kjk7034/ReactNativeCameraExample)에 정리했다.
+예를 들어 카메라 기능이 필요해서 react-native-camera를 적용하는 과정에 대해서 [React Native 서드파티 컴포넌트 적용하기](https://github.com/kjk7034/ReactNativeStudy/tree/master/Example/react-native-camera)에 정리했다.
 
 ## 6. APK 배포용 파일 만들기
 
-샘플 앱을 만들었으면 이제 우리가 폰에서 직접 볼 수 있도록 배포용 파일을 만들어야 한다. 
+샘플 앱을 만들었으면 이제 우리가 폰에서 직접 볼 수 있도록 배포용 파일을 만들어야 한다.
 
 [Generating Signed APK](https://facebook.github.io/react-native/docs/signed-apk-android.html)을 보고할 수 있다.
 
@@ -174,11 +174,11 @@ ES6에 대해 모든 것은 아니지만 많이 사용할 것 같은 내용을 [
 
 React Native로 앱을 만들며, Exponent SDK는 연락처, 카메라 및 소셜 로그인과 같은 시스템 기능에 대한 액세스를 제공한다.
 
-[ReactNative - Exponent](https://github.com/kjk7034/ReactNativeExponent)에 정리했다.
+[ReactNative - Exponent](https://github.com/kjk7034/ReactNativeStudy/tree/master/Example/Exponent)에 정리했다.
 
 ### UI 관련 (NativeBase)
 
-작업을 하다 보면 Tab, 버튼 등등 수많은 UI 관련 컴포넌트들이 필요할 것이다. 
+작업을 하다 보면 Tab, 버튼 등등 수많은 UI 관련 컴포넌트들이 필요할 것이다.
 
 여러 참고할 만한 사이트 중에서 [NativeBase-KitchenSink v0.5.18](https://github.com/GeekyAnts/NativeBase-KitchenSink)이 제일 괜찮은 것 같다.
 
